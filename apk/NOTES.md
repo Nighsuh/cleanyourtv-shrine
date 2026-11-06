@@ -1,16 +1,11 @@
-## CleanYourTV Shrine 3.2
+## CleanYourTV Shrine 3.2.1
 
 **English**
-- Launcher settings (hold OK on Settings → Launcher settings): featured dock editor, top-bar shortcuts (Settings locked), wallpaper + dim, screensaver & sleep, prayer times (Dammam, Jafari, changeable city), widgets (none by default), date & time (12/24h, time zone, Gregorian/Hijri/both), default launcher, language (English / العربية), About & updates.
-- Hold OK on any app: Hide, Uninstall, Delete (built-in apps, via network debugging) and Restore.
-- New shrine icon and banner.
-- Themes: coming soon.
-- Known issue: on the Arabic home screen the dock row is clipped; fix coming in the next update.
+- Arabic home screen fixed: the app row is right-to-left (mirrored order, remote Left/Right follow it) and stays as one fully visible row.
+- Arabic now uses Western digits (0–9) by default; Arabic-Indic digits can be chosen under Language.
 
-Installs as an update over 3.1-shrine. Downloader code: 4430541 (always the latest).
+Installs as an update over 3.2 / 3.1. Downloader code: 4430541 (always the latest).
 
 **العربية**
-- إعدادات المشغّل: تعديل صف التطبيقات، اختصارات الشريط العلوي، الخلفية، شاشة التوقف والسكون، أوقات الصلاة (الدمام، المذهب الجعفري)، الودجات، التاريخ والوقت (هجري/ميلادي/كلاهما)، اللغة، حول والتحديثات.
-- اضغط مطولاً على أي تطبيق: إخفاء، إلغاء تثبيت، حذف، استعادة.
-- أيقونة جديدة. السمات: قريباً.
-- مشكلة معروفة: صف التطبيقات مقصوص في الواجهة العربية، والإصلاح في التحديث القادم.
+- إصلاح الشاشة الرئيسية العربية: صف التطبيقات من اليمين إلى اليسار ويظهر كاملاً في صف واحد.
+- الأرقام الغربية افتراضياً، ويمكن اختيار الأرقام العربية الهندية من إعدادات اللغة.

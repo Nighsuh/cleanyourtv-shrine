@@ -8,6 +8,20 @@ The release file is always `CleanYourTV-Shrine.apk`.
 الوسوم: `v3.1-shrine` و`v3.2-shrine`.  
 اسم ملف الإصدار دائمًا `CleanYourTV-Shrine.apk`.
 
+## 3.2.1-shrine
+
+versionCode 13. Same signing key as 3.2-shrine.
+
+### English
+
+- The Arabic home dock uses the same right-to-left layout math as the rest of the grid. Tile order is mirrored, and Left and Right on the remote follow that order. One dock row stays fully on screen, in the Cairo font.
+- Arabic uses Western digits (0–9) unless you choose Arabic-Indic in Language.
+
+### العربية
+
+- صف التطبيقات في الشاشة العربية يتبع اتجاه اليمين إلى اليسار: الترتيب معكوس، ويميناً ويساراً على جهاز التحكم يتبعان ذلك الترتيب. صف واحد يظهر كاملاً بخط القاهرة.
+- العربية تستخدم الأرقام الغربية (0–9) ما لم تختر الأرقام العربية الهندية من اللغة.
+
 ## 3.2-shrine
 
 versionCode 12.
