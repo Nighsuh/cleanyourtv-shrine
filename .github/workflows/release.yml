@@ -1,0 +1,25 @@
+name: Publish APK release
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Decode APK
+        run: |
+          base64 -d apk/CleanYourTV-Shrine.apk.b64 > CleanYourTV-Shrine.apk
+          echo "2b4da090b15d74666d04f540f548c51ecdf3ae70e7add692f3d6a56173538a0c  CleanYourTV-Shrine.apk" | sha256sum -c
+      - name: Create or update release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          if gh release view v3.1-shrine >/dev/null 2>&1; then
+            gh release upload v3.1-shrine CleanYourTV-Shrine.apk --clobber
+          else
+            gh release create v3.1-shrine CleanYourTV-Shrine.apk --title "CleanYourTV Shrine 3.1" --notes "Shrine-themed CleanYourTV launcher for Android TV / Google TV (Android 8+). Uninstall any existing CleanYourTV first."
+          fi
