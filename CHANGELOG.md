@@ -2,11 +2,33 @@
 
 سجل التغييرات
 
-Tags: `v3.1-shrine`, `v3.2-shrine`.  
+Tags: `v3.1-shrine`, `v3.2-shrine`, `v3.2.1-shrine`, `v3.2.2-shrine`.  
 The release file is always `CleanYourTV-Shrine.apk`.
 
 الوسوم: `v3.1-shrine` و`v3.2-shrine`.  
 اسم ملف الإصدار دائمًا `CleanYourTV-Shrine.apk`.
+
+## 3.2.2-shrine
+
+versionCode 14. Same signing key and package as 3.2.1-shrine, so it installs over that build.
+
+### English
+
+- The app name is Alkhamis Launcher in every language, including the system Apps list, the leanback activity, and About.
+- A dock with more apps than columns is one horizontal row. It scrolls so the focused tile stays fully on screen, in Arabic and in English, from 7 through 12 apps.
+- With no rows requested under the dock, the next row starts off the bottom of the screen in both languages. Press Down to reach it. It is no longer clipped in half.
+- Left and Right move through the top bar by the buttons' positions on screen, in Arabic and in English. Up from the dock reaches that bar, and Down returns to the dock.
+- A saved Arabic-Indic digit choice that came from the old default becomes Western digits. Arabic-Indic stays in Language, and it is kept only after you choose it there.
+- Delete keeps one debugging key and opens one connection. The Allow debugging popup is expected once: tick Always allow, then Allow. The launcher does not open another connection while that popup is waiting. Test connection is in the popup and in Launcher settings. Success and failure show the TV's own reply in English and Arabic. If uninstall is refused, Disable for this user is offered for an app that is not protected.
+
+### العربية
+
+- اسم التطبيق Alkhamis Launcher في كل اللغات، وفي قائمة تطبيقات النظام، ونشاط الشاشة، وصفحة حول الشاشة.
+- إذا زاد عدد تطبيقات الصف على عدد الأعمدة يصبح صفًا أفقيًا واحدًا. يتحرك الصف ليبقى التطبيق المحدد ظاهرًا بالكامل، بالعربية والإنجليزية، من ٧ إلى ١٢ تطبيقًا.
+- إذا لم تُطلب صفوف تحت الصف، يبدأ الصف التالي خارج أسفل الشاشة في اللغتين. اضغط للأسفل للوصول إليه. لم يعد مقطوعًا من المنتصف.
+- يمين ويسار ينقلان بين أزرار الشريط العلوي حسب موضعها على الشاشة، بالعربية والإنجليزية. الأعلى من الصف يصل إلى الشريط، والأسفل يعود إلى الصف.
+- اختيار الأرقام العربية الهندية المحفوظ من الإعداد القديم يصبح أرقامًا غربية. تبقى الأرقام العربية الهندية في اللغة، وتُحفظ فقط إذا اخترتها من هناك.
+- الحذف يحتفظ بمفتاح تصحيح واحد ويفتح اتصالًا واحدًا. نافذة السماح بالتصحيح تُتوقع مرة واحدة: فعّل «السماح دائمًا» ثم اضغط سماح. لا يفتح المشغّل اتصالًا آخر ما دامت النافذة بانتظارك. «Test connection» موجود في النافذة وفي إعدادات الشاشة. النجاح والفشل يعرضان رد التلفاز بالإنجليزية والعربية. إذا رُفض الحذف، يُعرض تعطيل التطبيق لهذا المستخدم ما لم يكن محميًا.
 
 ## 3.2.1-shrine
 
