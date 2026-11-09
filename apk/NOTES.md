@@ -1,12 +1,9 @@
-## Alkhamis Launcher 3.2.3
+## Alkhamis Launcher 3.2.5
 
 **English**
-- Widgets fixed: choosing Prayer times now puts the prayer card on the home screen right away (built into the launcher, Dammam, Jafari). No extra app or popup.
-- Up from the dock focuses the prayer card; OK asks before removing it.
-- Widgets from other apps show a clear message if the TV refuses or has no allow screen, instead of doing nothing.
+- Home screen layout fixes: the empty outlined box under the prayer card is gone, and the focused app name sits above the dock instead of showing through the prayer card. Checked in English and Arabic, with and without the prayer widget.
 
-Installs as an update over earlier versions. Downloader code: 4430541 (always the latest).
+Includes everything from 3.2.3 (built-in prayer widget). Installs as an update over earlier versions. Downloader code: 4430541 (always the latest).
 
 **العربية**
-- إصلاح الودجات: اختيار أوقات الصلاة يضيف البطاقة إلى الشاشة الرئيسية فوراً (مدمجة في المشغّل، الدمام، المذهب الجعفري).
-- رسالة واضحة إذا رفض التلفاز إضافة ودجة من تطبيق آخر.
+- إصلاحات في الشاشة الرئيسية: إزالة الإطار الفارغ تحت بطاقة الصلاة، واسم التطبيق يظهر فوق صف التطبيقات بدلاً من خلف البطاقة.

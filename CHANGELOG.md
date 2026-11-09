@@ -2,11 +2,35 @@
 
 سجل التغييرات
 
-Tags: `v3.1-shrine`, `v3.2-shrine`, `v3.2.1-shrine`, `v3.2.2-shrine`, `v3.2.3-shrine`.  
+Tags: `v3.1-shrine`, `v3.2-shrine`, `v3.2.1-shrine`, `v3.2.2-shrine`, `v3.2.3-shrine`, `v3.2.4-shrine`, `v3.2.5-shrine`.  
 The release file is always `CleanYourTV-Shrine.apk`.
 
 الوسوم: `v3.1-shrine` و`v3.2-shrine`.  
 اسم ملف الإصدار دائمًا `CleanYourTV-Shrine.apk`.
+
+## 3.2.5-shrine
+
+versionCode 17. Same signing key and package as 3.2.4-shrine, so it installs over that build.
+
+### English
+
+- The focused app’s name sits above the dock after the dock moves to the bottom. It no longer shows through the prayer card. The same place is used with and without a widget, in English and in Arabic.
+
+### العربية
+
+- اسم التطبيق المحدد يجلس فوق صف التطبيقات بعد أن ينزل الصف إلى أسفل الشاشة. لم يعد يظهر عبر بطاقة مواقيت الصلاة. الموضع نفسه مع المصغّرة ومن دونها، بالعربية والإنجليزية.
+
+## 3.2.4-shrine
+
+versionCode 16. Same signing key and package as 3.2.3-shrine, so it installs over that build.
+
+### English
+
+- The focus frame follows the tile after the dock moves to the bottom of the screen. An empty white outline no longer sits under the prayer card.
+
+### العربية
+
+- إطار التحديد يتبع الأيقونة بعد أن ينزل صف التطبيقات إلى أسفل الشاشة. لم يعد يظهر إطار أبيض فارغ تحت بطاقة مواقيت الصلاة.
 
 ## 3.2.3-shrine
 
