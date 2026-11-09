@@ -2,11 +2,27 @@
 
 سجل التغييرات
 
-Tags: `v3.1-shrine`, `v3.2-shrine`, `v3.2.1-shrine`, `v3.2.2-shrine`.  
+Tags: `v3.1-shrine`, `v3.2-shrine`, `v3.2.1-shrine`, `v3.2.2-shrine`, `v3.2.3-shrine`.  
 The release file is always `CleanYourTV-Shrine.apk`.
 
 الوسوم: `v3.1-shrine` و`v3.2-shrine`.  
 اسم ملف الإصدار دائمًا `CleanYourTV-Shrine.apk`.
+
+## 3.2.3-shrine
+
+versionCode 15. Same signing key and package as 3.2.2-shrine, so it installs over that build.
+
+### English
+
+- Prayer times is drawn by the launcher. Choosing it in Widgets puts Dammam, Jafari, on the home screen immediately. There is no second app and no system permission dialog for this one.
+- A widget from another app still asks the TV for permission. If that screen is missing, or the TV refuses, the launcher says so in English and Arabic instead of doing nothing.
+- A widget on the home screen can be focused with the remote. OK asks before removing it.
+
+### العربية
+
+- مواقيت الصلاة ترسمها الشاشة نفسها. اختيارها من المصغّرات يضع الدمام، الجعفري، على الشاشة الرئيسية فورًا. لا تطبيق ثانٍ ولا نافذة إذن من النظام لهذه المصغّرة.
+- مصغّرة من تطبيق آخر ما زالت تطلب إذن التلفاز. إذا لم توجد تلك الشاشة، أو رفض التلفاز، تقول الشاشة ذلك بالعربية والإنجليزية بدل أن لا يحدث شيء.
+- يمكن تحديد مصغّرة على الشاشة الرئيسية بجهاز التحكم. موافق يسأل قبل إزالتها.
 
 ## 3.2.2-shrine
 
