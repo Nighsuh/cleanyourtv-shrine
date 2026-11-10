@@ -2,11 +2,27 @@
 
 سجل التغييرات
 
-Tags: `v3.1-shrine`, `v3.2-shrine`, `v3.2.1-shrine`, `v3.2.2-shrine`, `v3.2.3-shrine`, `v3.2.4-shrine`, `v3.2.5-shrine`, `v3.2.6-shrine`, `v3.2.7-shrine`, `v3.2.8-shrine`.  
+Tags: `v3.1-shrine`, `v3.2-shrine`, `v3.2.1-shrine`, `v3.2.2-shrine`, `v3.2.3-shrine`, `v3.2.4-shrine`, `v3.2.5-shrine`, `v3.2.6-shrine`, `v3.2.7-shrine`, `v3.2.8-shrine`, `v3.2.9-shrine`.  
 The release file is always `CleanYourTV-Shrine.apk`.
 
 الوسوم: `v3.1-shrine` و`v3.2-shrine`.  
 اسم ملف الإصدار دائمًا `CleanYourTV-Shrine.apk`.
+
+## 3.2.9-shrine
+
+versionCode 21. Same signing key and package as 3.2.8-shrine, so it installs over that build.
+
+### English
+
+- Set Home with debugging checks which activity actually answers Home. It reports success only when that activity is Alkhamis Launcher, and otherwise names the app that still answers.
+- The screen says to set Free My TV to Original first (that turns the Google launcher back on), or to turn Free My TV off, and then to turn off the stock launcher here. Turning it off uses the same packages and commands as Free My TV: the Google TV launcher, the Android TV launcher, Google TV setup only when it answers Home and did not save the Wi-Fi, recommendations when the Android TV launcher is home, and Google Assistant. Nothing is uninstalled. Turning them back on is on the same screen.
+- Opening launcher settings no longer dies on a preference saved as the wrong type, or when the widget host stops. The screensaver calculates the next prayer itself when there is no cache, in the clock dream and over photos.
+
+### العربية
+
+- ضبط الرئيسية عبر التصحيح يفحص النشاط الذي يرد على زر الرئيسية. النجاح فقط عندما يكون Alkhamis Launcher، وإلا تُظهر الشاشة التطبيق الذي ما زال يرد.
+- الشاشة تقول: اجعل Free My TV على «الأصلي» أولًا (هذا يعيد تشغيل شاشة غوغل)، أو أوقف Free My TV، ثم أوقف الشاشة الأصلية من هنا. الإيقاف يستخدم الحزم والأوامر نفسها التي تستخدمها Free My TV: شاشة Google TV، وشاشة Android TV، وإعداد Google TV فقط إذا كان يرد على الرئيسية ولم يحفظ شبكة الواي فاي، والاقتراحات عندما تكون شاشة Android TV هي الرئيسية، ومساعد غوغل. لا يُحذف شيء. إعادتها للتشغيل من الشاشة نفسها.
+- فتح إعدادات الشاشة لم يعد يتوقف بسبب تفضيل محفوظ بنوع خاطئ، أو عند إيقاف مستضيف الويدجت. حافظة الشاشة تحسب الصلاة التالية بنفسها إن لم توجد ذاكرة، في ساعة الحافظة وفوق الصور.
 
 ## 3.2.8-shrine
 

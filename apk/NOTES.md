@@ -1,17 +1,15 @@
-## Alkhamis Launcher 3.2.8
+## Alkhamis Launcher 3.2.9
 
 **English**
-- New prayer widget: six compact cards (Fajr, Sunrise, Dhuhr, Asr, Maghrib, Isha) with icons, Arabic and English names, and times. The next prayer is highlighted with a countdown.
-- Apps per row now works: the dock keeps that many apps, and the rest move to the row below.
-- Default home screen: "Choose home screen" tries every system route and explains if the TV refuses. "Set home via debugging" runs on the TV itself and shows the result. The status line shows whether the Home button service is opening the launcher.
-- Debugging popup: "Show steps only" moves to the steps.
-- The screensaver closes without freezing.
-- Arabic uses ويدجت for widgets.
+- Home on NVIDIA Shield: the Default home screen can now turn off the stock Google TV launcher and Assistant (the same method Free My TV uses), with a one-tap undo. "Set home via debugging" only reports success when Home really opens Alkhamis, and otherwise names the app still answering Home.
+- If Free My TV is installed, the screen tells you to set it to "Original" (or turn it off) first.
+- Fixed: launcher settings crashing after adding the prayer widget.
+- Fixed: the screensaver now shows the next prayer time (clock and photo modes).
 
 Installs as an update over earlier versions. Downloader code: 4430541 (always the latest).
 
 **العربية**
-- ويدجت صلاة جديد: ست بطاقات مع أيقونات وأسماء وأوقات، والصلاة التالية مميّزة مع عدّ تنازلي.
-- «تطبيقات في كل صف» يعمل: الزائد ينزل إلى الصف التالي.
-- الشاشة الرئيسية الافتراضية: الأزرار تعمل وتعرض النتيجة، وضبطها عبر التصحيح يتم من التلفاز نفسه.
-- إصلاح نافذة التصحيح وحافظة الشاشة، واستخدام كلمة ويدجت.
+- الشاشة الرئيسية على NVIDIA Shield: يمكن الآن إيقاف شاشة غوغل الأصلية والمساعد (بنفس طريقة Free My TV) مع زر للتراجع. ضبط الرئيسية عبر التصحيح لا يعرض النجاح إلا إذا فتح زر الرئيسية Alkhamis فعلًا.
+- إن كان Free My TV مثبتًا، تطلب الشاشة جعله على «الأصلي» أو إيقافه أولًا.
+- إصلاح توقف الإعدادات بعد إضافة ويدجت الصلاة.
+- إصلاح حافظة الشاشة لتعرض وقت الصلاة التالية (الساعة والصور).
