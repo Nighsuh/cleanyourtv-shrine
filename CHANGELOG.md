@@ -2,11 +2,29 @@
 
 سجل التغييرات
 
-Tags: `v3.1-shrine`, `v3.2-shrine`, `v3.2.1-shrine`, `v3.2.2-shrine`, `v3.2.3-shrine`, `v3.2.4-shrine`, `v3.2.5-shrine`, `v3.2.6-shrine`.  
+Tags: `v3.1-shrine`, `v3.2-shrine`, `v3.2.1-shrine`, `v3.2.2-shrine`, `v3.2.3-shrine`, `v3.2.4-shrine`, `v3.2.5-shrine`, `v3.2.6-shrine`, `v3.2.7-shrine`.  
 The release file is always `CleanYourTV-Shrine.apk`.
 
 الوسوم: `v3.1-shrine` و`v3.2-shrine`.  
 اسم ملف الإصدار دائمًا `CleanYourTV-Shrine.apk`.
+
+## 3.2.7-shrine
+
+versionCode 19. Same signing key and package as 3.2.6-shrine, so it installs over that build.
+
+### English
+
+- Launcher settings opens on Language, at the top of the list. A focused row keeps a margin from the top and bottom of the screen, so the highlight is not cut off.
+- About no longer opens with Uninstall selected.
+- The date choices show today’s date. The default-home note says Alkhamis Launcher.
+- The screensaver clock shows AM or PM in 12-hour mode. The prayer line is on the clock dream, and Screensaver has a row to turn it off.
+
+### العربية
+
+- إعدادات الشاشة تفتح على اللغة، في أعلى القائمة. الصف المحدد يبقى بعيدًا عن أعلى الشاشة وأسفلها، فلا يُقص الإطار.
+- صفحة حول الشاشة لم تعد تفتح وخيار إزالة التثبيت محددًا.
+- خيارات التاريخ تعرض تاريخ اليوم. ملاحظة الشاشة الافتراضية تقول Alkhamis Launcher.
+- ساعة حافظة الشاشة تعرض ص أو م في نظام ١٢ ساعة. سطر الصلاة ظاهر في ساعة الحافظة، وصف في حافظة الشاشة يوقفه.
 
 ## 3.2.6-shrine
 
