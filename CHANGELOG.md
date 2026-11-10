@@ -2,11 +2,35 @@
 
 سجل التغييرات
 
-Tags: `v3.1-shrine`, `v3.2-shrine`, `v3.2.1-shrine`, `v3.2.2-shrine`, `v3.2.3-shrine`, `v3.2.4-shrine`, `v3.2.5-shrine`.  
+Tags: `v3.1-shrine`, `v3.2-shrine`, `v3.2.1-shrine`, `v3.2.2-shrine`, `v3.2.3-shrine`, `v3.2.4-shrine`, `v3.2.5-shrine`, `v3.2.6-shrine`.  
 The release file is always `CleanYourTV-Shrine.apk`.
 
 الوسوم: `v3.1-shrine` و`v3.2-shrine`.  
 اسم ملف الإصدار دائمًا `CleanYourTV-Shrine.apk`.
+
+## 3.2.6-shrine
+
+versionCode 18. Same signing key and package as 3.2.5-shrine, so it installs over that build.
+
+### English
+
+- A dock with more apps than fit on screen keeps the focused tile fully on screen, with the focus frame on that tile. The first and last tiles keep their edge padding, in Arabic and in English, going either way along the row.
+- Moving onto the app that used to start a second row no longer lifts the whole dock into the middle of the screen. The row stays on its line at the bottom.
+- The dock’s rounded band no longer runs off the screen and leaves a cut-off white curve at the edge.
+- Holding OK on a dock app past the sixth offers the same remove, hide and uninstall rows as the first six. The menu stays on the screen.
+- The debugging popup scrolls, so Test connection and Cancel can be reached. On and Off follow the language.
+- Arabic uses Arabic for those debugging buttons, the wallpaper row, the rows under the dock, and Test connection. The greeting and the date no longer spread their letters apart. Gregorian and Hijri together can use two lines.
+- Up and Down leave a text field and the wallpaper slider. The screensaver’s next-prayer line follows the language.
+
+### العربية
+
+- إذا زاد عدد تطبيقات الصف على ما يتسع في الشاشة، يبقى التطبيق المحدد ظاهرًا بالكامل مع إطار التحديد عليه. أول تطبيق وآخر تطبيق يبقيان بعيدًا عن حافة الشاشة، بالعربية والإنجليزية، في الاتجاهين.
+- الوصول إلى التطبيق الذي كان يبدأ صفًا ثانيًا لم يعد يرفع الصف كله إلى وسط الشاشة. يبقى الصف على خطه في الأسفل.
+- الشريط المدوّر خلف الصف لم يعد يخرج عن الشاشة ويترك قوسًا أبيض مقطوعًا عند الحافة.
+- الضغط المطوّل على موافق لتطبيق بعد السادس يعرض الإزالة والإخفاء والحذف مثل التطبيقات الأولى. القائمة تبقى داخل الشاشة.
+- نافذة التصحيح تتحرك، فيمكن الوصول إلى اختبار الاتصال وإلغاء. تشغيل وإيقاف يتبعان اللغة.
+- العربية تستخدم العربية لأزرار التصحيح وصف الخلفية وصفوف ما تحت الشريط واختبار الاتصال. التحية والتاريخ لم يعودا يباعدان بين الحروف. الميلادي والهجري معًا يمكن أن يأخذا سطرين.
+- الأعلى والأسفل يخرجان من حقل النص ومن شريط تعتيم الخلفية. سطر الصلاة التالية في حافظة الشاشة يتبع اللغة.
 
 ## 3.2.5-shrine
 
