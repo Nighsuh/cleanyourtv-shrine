@@ -2,11 +2,31 @@
 
 سجل التغييرات
 
-Tags: `v3.1-shrine`, `v3.2-shrine`, `v3.2.1-shrine`, `v3.2.2-shrine`, `v3.2.3-shrine`, `v3.2.4-shrine`, `v3.2.5-shrine`, `v3.2.6-shrine`, `v3.2.7-shrine`, `v3.2.8-shrine`, `v3.2.9-shrine`.  
+Tags: `v3.1-shrine`, `v3.2-shrine`, `v3.2.1-shrine`, `v3.2.2-shrine`, `v3.2.3-shrine`, `v3.2.4-shrine`, `v3.2.5-shrine`, `v3.2.6-shrine`, `v3.2.7-shrine`, `v3.2.8-shrine`, `v3.2.9-shrine`, `v3.2.10-shrine`.  
 The release file is always `CleanYourTV-Shrine.apk`.
 
 الوسوم: `v3.1-shrine` و`v3.2-shrine`.  
 اسم ملف الإصدار دائمًا `CleanYourTV-Shrine.apk`.
+
+## 3.2.10-shrine
+
+versionCode 22. Same signing key and package as 3.2.9-shrine, so it installs over that build.
+
+### English
+
+- New Home Screen row at the top of launcher settings, with a simple picker: Alkhamis Launcher or Original. Switching happens in the background.
+- Fixed the built-in debugging connection on NVIDIA Shield (the Conscrypt RSAPrivateCrtKey crash), so switching Home actually runs.
+- The app now shows as "Alkhamis Launcher" in the TV's app list instead of the prayer screen's name.
+- Removed the old default-home rows and every option that touched Free My TV.
+- The prayer widget now scrolls with the home page instead of staying pinned at the top.
+
+### العربية
+
+- صف جديد «الشاشة الرئيسية» في أعلى الإعدادات مع اختيار بسيط: Alkhamis Launcher أو الأصلية. التبديل يتم في الخلفية.
+- إصلاح اتصال التصحيح المدمج على NVIDIA Shield، فيعمل تبديل الرئيسية فعلًا.
+- يظهر التطبيق باسم «Alkhamis Launcher» في قائمة تطبيقات التلفاز بدلًا من اسم شاشة الصلاة.
+- إزالة صفوف الشاشة الافتراضية القديمة وكل خيار يتعامل مع Free My TV.
+- ويدجت الصلاة يتحرك مع الصفحة عند التمرير بدل أن يبقى ثابتًا في الأعلى.
 
 ## 3.2.9-shrine
 
